@@ -1,5 +1,10 @@
 # Moyu-Personal-Website
 
+## fix: Adjust .gitignore
+
+* Features
+    * Removed `\assets` from `.gitignore` to ensure all image and asset files are tracked by Git and displayed correctly on GitHub Pages
+
 ## feat: Apply Website Template and Modified Informaiton in index.html
 
 * Affected Files
