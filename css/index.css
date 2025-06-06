@@ -1,0 +1,37 @@
+/* 移除背景和邊框 */
+.text-only-dropdown {
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+}
+
+/* 文字選項樣式 */
+.text-only-dropdown .dropdown-item {
+    padding: 6px 16px !important;
+    background: transparent !important;
+    transition: all 0.3s ease;
+    opacity: 0;
+    transform: translateY(-10px);
+}
+
+/* 滑動動畫效果 */
+.show .text-only-dropdown .dropdown-item,
+.dropdown:hover .text-only-dropdown .dropdown-item {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* 每個選項的動畫延遲 */
+.text-only-dropdown .dropdown-item:nth-child(1) {
+  transition-delay: 0.1s;
+}
+
+.text-only-dropdown .dropdown-item:nth-child(2) {
+  transition-delay: 0.2s;
+}
+
+/* 懸停效果 */
+.text-only-dropdown .dropdown-item:hover {
+  background: transparent !important;
+}
