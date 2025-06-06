@@ -1,7 +1,22 @@
 # Moyu-Personal-Website
 
+## feat: Update Masthead Section in index.html
+
+* Affected Files
+    1. Modified
+        * `index.html`
+    2. Created : None
+    3. Deleted : None
+* Features
+    1. Updated the `<header class="masthead">` section with a linear gradient overlay and background image (`bg-masthead.jpg`)
+
 ## fix: Adjust .gitignore
 
+* Affected Files
+    1. Modified
+        * `.gitignore`
+    2. Created : None
+    3. Deleted : None
 * Features
     * Removed `\assets` from `.gitignore` to ensure all image and asset files are tracked by Git and displayed correctly on GitHub Pages
 
